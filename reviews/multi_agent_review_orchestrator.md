@@ -1,5 +1,5 @@
 ---
-agent: codex
+agent: <strong planning agent>
 done: false
 title: "Meta: multi-agent review (create review tickets)"
 goal: "Generate independent review tickets and a synthesis ticket"
@@ -43,4 +43,3 @@ Then edit each created ticket:
 
 ## Definition of done
 - [ ] The 3 follow-up tickets exist and are clearly linked to the same target.
-- [ ] This ticket is marked `done: true`.

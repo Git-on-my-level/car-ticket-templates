@@ -1,5 +1,5 @@
 ---
-agent: codex
+agent: <any cheap agent>
 done: false
 title: "Review synthesis: [FILL_ME]"
 goal: "Turn multiple review inputs into a single prioritized action list"
@@ -37,4 +37,3 @@ If must-fix items exist:
 ## Definition of done
 - [ ] The action list is prioritized and unambiguous.
 - [ ] Follow-up tickets exist for must-fix items (if any).
-- [ ] Set `done: true`.

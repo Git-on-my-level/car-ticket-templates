@@ -1,5 +1,5 @@
 ---
-agent: opencode
+agent: <strong coding agent>
 done: false
 title: "Review: [FILL_ME] (single-agent)"
 goal: "Perform a high-signal review and produce actionable feedback"
@@ -24,8 +24,9 @@ goal: "Perform a high-signal review and produce actionable feedback"
 - [ ] Correctness: does it do what it claims?
 - [ ] Tests: adequate coverage; regression added where appropriate
 - [ ] Edge cases: input validation, error handling
-- [ ] API/UX: naming, ergonomics, backwards compatibility
-- [ ] Architecture: respects CAR layering boundaries where relevant
+- [ ] API/UX: naming, ergonomics
+- [ ] Backwards compatibility: is this supposed to be a clean change or backwards compatible?
+- [ ] Architecture: respects existing architecture best practices and does not introduce tech debt
 - [ ] Security: avoid secret leakage, unsafe file/network behavior
 - [ ] Diff hygiene: minimal unrelated changes
 
@@ -36,10 +37,6 @@ Write a concise review into this ticket:
 - Nice-to-haves (optional)
 - Any suggested follow-up tickets (optional)
 
-If a must-fix item exists:
-- [ ] Create follow-up ticket(s) under `.codex-autorunner/tickets/` (preferred over long inline instructions).
-
 ## Definition of done
 - [ ] Review notes are specific (file paths, functions, and suggested changes).
 - [ ] Follow-up tickets exist for must-fix items (if any).
-- [ ] Set `done: true`.

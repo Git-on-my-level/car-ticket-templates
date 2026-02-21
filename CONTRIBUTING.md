@@ -2,15 +2,10 @@
 
 ## Philosophy
 
-These templates should:
-- be usable as **plain Markdown** (no template language required)
-- be **high-signal** and **model-friendly**
-- encourage **small, reviewable diffs**
-- encourage durable context under `.codex-autorunner/workspace/`
+You should think of *tickets as software*. Since tickets are the control plane for CAR you must write your tickets so that they are executable reliably by an agent. This means you should avoid things that are overly specific, like specific to an OS or machine, reliance on any non-CAR tools, or best practices/behaviors that are specific to a particular codebase.
 
 ## Style guidelines
 
-- Keep templates short; prefer checklists over prose.
 - Include:
   - Context to load
   - Tasks
